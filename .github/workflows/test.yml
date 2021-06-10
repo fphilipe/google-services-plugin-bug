@@ -25,4 +25,4 @@ jobs:
           java-version: 1.8
 
       - name: Test
-        run: VERSION=${{ matrix.version }} ./gradlew build
+        run: VERSION=${{ matrix.version }} ./gradlew :app:processFooBarHelloWorldDebugGoogleServices
